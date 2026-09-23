@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "Rattling Antlers",
+    "slug": "rattling-antlers-v1",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "scheme": "rattlingantlers",
+    "plugins": [
+      "expo-router",
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Allow Rattling Antlers to use your location while you are hunting."
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
